@@ -1,4 +1,13 @@
 # DWParticleEmitter
+# 如果感觉不错，请给个Star支持一下
+# 使用中如果遇到什么问题可以联系我
+# QQ:739814184 
+# 微信:ai739814184
+# QQ群:577506623
+# e-mail:dwang.hello@outlook.com
+
+---
+
 #### 效果图
 ![粒子效果](https://github.com/dwanghello/DWParticleEmitter/blob/master/粒子效果.gif)
 
