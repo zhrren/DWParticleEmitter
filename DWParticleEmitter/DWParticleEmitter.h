@@ -42,7 +42,7 @@ typedef enum : NSUInteger {
 
 
 /**************************************粒子*****************************************/
-/** 粒子图片 */
+/** 粒子内容 */
 @property (strong, nonatomic) NSArray<UIImage *>   *cellContents;
 
 /** 每秒粒子生成的数量 */
@@ -54,19 +54,19 @@ typedef enum : NSUInteger {
 /** 生命周期范围 */
 @property(assign, nonatomic) float                  cellLifetimeRange;
 
-/** 发送的速度——>速度越快越远 */
+/** 发射的速度——>速度越快越远 */
 @property(assign, nonatomic) CGFloat                cellVelocity;
 
-/** 发送速度的范围 */
+/** 发射速度的范围 */
 @property(assign, nonatomic) CGFloat                cellVelocityRange;
 
-/** 散发的纬度(方向)——>弧度——>上下 */
+/** 发射的纬度(方向)——>弧度——>上下 */
 @property(assign, nonatomic) CGFloat                cellEmissionLatitude;
 
-/** 散发的经度(方向)——>弧度——>左右 */
+/** 发射的经度(方向)——>弧度——>左右 */
 @property(assign, nonatomic) CGFloat                cellEmissionLongitude;
 
-/** 散发粒子的范围 */
+/** 发射粒子的范围 */
 @property(assign, nonatomic) CGFloat                cellEmissionRange;
 
 /** X轴的加速度 */
