@@ -8,7 +8,7 @@
 >
     将 *DWParticleEmitter* 文件夹导入到工程中
 >
-![粒子效果主文件](/Users/sihaiquanqiu/Desktop/DWParticleEmitter/粒子效果主文件.png)
+![粒子效果主文件](https://github.com/dwanghello/DWParticleEmitter/blob/master/粒子效果主文件.png)
 >
 ---
 > 在需要使用粒子效果的地方导入头文件
@@ -23,11 +23,11 @@
 > 发射模式(枚举类型)
 > 
     emitter.caEmitterMode = caVolume;
-![发射模式](/Users/sihaiquanqiu/Desktop/DWParticleEmitter/发射模式.png)
+![发射模式](https://github.com/dwanghello/DWParticleEmitter/blob/master/发射模式.png)
 > 发射形状的样式(枚举类型)
 > 
     emitter.caEmitterShape = caLine;
-![发射形状的样式](/Users/sihaiquanqiu/Desktop/DWParticleEmitter/发射形状的样式.png)
+![发射形状的样式](https://github.com/dwanghello/DWParticleEmitter/blob/master/发射形状的样式.png)
 > 发射速度
 >     
      emitter.cellVelocity = -10.0f;
