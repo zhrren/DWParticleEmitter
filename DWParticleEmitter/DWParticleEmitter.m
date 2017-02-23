@@ -5,6 +5,11 @@
 //  Created by dwng.vip on 2017/2/22.
 //  Copyright © 2017年 dwang. All rights reserved.
 //
+/*****************************Github:https://github.com/dwanghello/DWParticleEmitter*********************/
+/*****************************邮箱:dwang.hello@outlook.com***********************************************/
+/*****************************QQ:739814184**************************************************************/
+/*****************************QQ交流群:577506623*********************************************************/
+/*****************************codedata官方群:157937068***************************************************/
 
 #import "DWParticleEmitter.h"
 #import <QuartzCore/QuartzCore.h>
@@ -82,6 +87,7 @@
         //粒子
         CAEmitterCell *emitterCell = [CAEmitterCell emitterCell];
         
+        //粒子内容
         emitterCell.contents = (__bridge id _Nullable)(self.cellContents[i].CGImage);
         
         //粒子出生量
@@ -93,17 +99,17 @@
         //生命周期范围
         emitterCell.lifetimeRange = self.cellLifetimeRange?self.cellLifetimeRange:10.50f;
         
-        //发送的速度
-        emitterCell.velocity = self.cellVelocity?self.cellVelocity:0.0f;;
+        //发射的速度
+        emitterCell.velocity = self.cellVelocity?self.cellVelocity:0.0f;
         
-        //发送速度的范围
+        //发射速度的范围
         emitterCell.velocityRange = self.cellVelocityRange?self.cellVelocityRange:10.0f;
         
-        //散发的纬度
+        //发射的纬度
         emitterCell.emissionLatitude = self.cellEmissionLatitude?self.cellEmissionLatitude:0.0f;
         emitterCell.emissionLongitude = self.cellEmissionLongitude?self.cellEmissionLongitude:0.0f;
         
-        //散发的范围
+        //发射的范围
         emitterCell.emissionRange = self.cellEmissionRange?self.cellEmissionRange:M_PI/4;
         
         //加速度
@@ -147,7 +153,7 @@
         //粒子green在生命周期内的改变速度
         emitterCell.blueSpeed = self.cellBlueSpeed?self.cellBlueSpeed:0.0f;
         
-        // 一个粒子的透明度 能改变的范围
+        //一个粒子的透明度 能改变的范围
         emitterCell.alphaRange = self.cellAlphaRange?self.cellAlphaRange:0.0f;
         
         //粒子透明度在生命周期内的改变速度
@@ -159,7 +165,7 @@
         
     }
     
-    //把粒子的cell 放到粒子发送器上
+    //把粒子的cell 放到粒子发射器上
     emitterLayer.emitterCells = cellArrM;
     
     [view.layer addSublayer:emitterLayer];
